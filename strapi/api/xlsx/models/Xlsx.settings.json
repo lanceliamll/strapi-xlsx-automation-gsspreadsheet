@@ -1,0 +1,21 @@
+{
+  "connection": "default",
+  "collectionName": "xlsxes",
+  "info": {
+    "name": "xlsx",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Stored": {
+      "type": "string"
+    }
+  }
+}

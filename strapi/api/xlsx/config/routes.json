@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/xlsxes",
+      "handler": "Xlsx.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/xlsxes/count",
+      "handler": "Xlsx.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/xlsxes/:id",
+      "handler": "Xlsx.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/xlsxes",
+      "handler": "Xlsx.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/xlsxes/:id",
+      "handler": "Xlsx.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/xlsxes/:id",
+      "handler": "Xlsx.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

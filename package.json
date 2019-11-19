@@ -1,0 +1,16 @@
+{
+  "name": "xlsx-automation-using-gss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "spreadsheet.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "google-spreadsheet": "^2.0.3"
+  }
+}
